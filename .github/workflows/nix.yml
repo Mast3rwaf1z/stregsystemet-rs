@@ -5,6 +5,7 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  workflow_dispatch:
 
 # env is unneeded and unsupported as nix builds are pure, so the environment is discarded anyway
 
